@@ -21,6 +21,8 @@
         <activity android:name=".ViewActivity"/>
         <activity android:name=".SearchActivity" />
         <activity android:name=".PostActivity" />
+        <activity android:name=".AboutActivity" />
+
     </application>
 
 </manifest>

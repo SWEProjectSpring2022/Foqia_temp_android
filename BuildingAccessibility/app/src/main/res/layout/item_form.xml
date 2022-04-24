@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/building_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:text="Erdman Dining Hall" />
+
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        tools:text="Foqia Shahid" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et velit malesuada, vehicula magna nec, efficitur nunc. Suspendisse maximus urna eros, non cursus sem ultrices a. Fusce massa turpis, tincidunt ut augue ut, convallis varius urna. Suspendisse potenti. Nullam accumsan sit amet urna nec fermentum. Donec maximus eros ac consequat consectetur. Donec in leo pellentesque, euismod orci eget, accumsan purus. Nullam a mollis ex, eget ultrices risus." />
+</RelativeLayout>

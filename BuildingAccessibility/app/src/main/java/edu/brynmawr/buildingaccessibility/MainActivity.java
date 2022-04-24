@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int SEARCH_ACTIVITY_ID = 2;
     private static final int POST_ACTIVITY_ID = 3;
     private static final int ABOUT_ACTIVITY_ID = 4;
+    private static final int VIEWPOSTS_ACTIVITY_ID = 50;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,5 +42,11 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, AboutActivity.class);
         i.putExtra("MESSAGE", "Going to about page");
         startActivityForResult(i, ABOUT_ACTIVITY_ID);
+    }
+
+    public void onViewPostsButtonClick(View view) {
+        Intent i = new Intent(this, ViewPostsActivity.class);
+        i.putExtra("MESSAGE", "Going to view posts page");
+        startActivityForResult(i, VIEWPOSTS_ACTIVITY_ID);
     }
 }
